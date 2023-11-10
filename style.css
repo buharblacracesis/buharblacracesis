@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /*
+    font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: rgb(218, 119, 187); /* Web sayfasının arka plan rengi */
+    color: #dc1482; /* Metin rengi */
+}
+
+h1 {
+    color: #a80068; /* s
+    font-size: 24px; /* Başlık yazı tipi boyutu */
+    font-family : Georgia, 'Times New Roman', Times, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+
+@keyframes colorchange {
+
+    0% {
+        color: pink;
+      }
+    
+      50% {
+        color: palevioletred;
+      }
+    
+      100% {
+        color: rgb(255, 0, 153);
+      }
+}
+h2{
+    animation: colorchange 3s infinite; 
+}
+a{
+    animation: colorchange 3s infinite;
+}
